@@ -5,3 +5,11 @@
     align-items: center;
     background-color: antiquewhite;
 }
+
+.navbar{
+    background-color: #00696ba2 !important;
+}
+
+a{
+    color: white !important;
+}
