@@ -20,37 +20,139 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>ReinreR-Árak</title>
+    <title>SnorlaxElectric-Árak</title>
   </head>
   <body>
+    <!-- nav -->
+
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="./index.html">SnorlaxElectric</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Főoldal</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contact.html">Kapcsolat</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="./prices.html">Árak</a>
-              </li>
-            </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html">SnorlaxElectric</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Főoldal</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Kapcsolat</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./prices.html">Árak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- prices -->
+    <div class="prices-container">
+      <div class="row row-cols-1 row-cols-md-3 mb-3 text-center mt-4">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Alap</h4>
+            </div>
+            <div class="card-body">
+               <h1 class="card-title pricing-card-title">360 000 Ft</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Szakszerű tervezés</li>
+                <li>5 dugalj/kapcsoló beépítése</li>
+                <li>5 dugalj/kapcsoló beszerelése</li>
+                <li>2 év garancia</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-outline-secondary"
+              >
+                Ezt választom
+              </button>
+            </div>
           </div>
         </div>
-      </nav>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Profi</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">600 000 Ft</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Szakszerű tervezés</li>
+                <li>10 dugalj/kapcsoló beépítése</li>
+                <li>10 dugalj/kapcsoló beszerelése</li>
+                <li>3 év garancia</li>
+              </ul>
+              <button type="button" class="w-100 btn btn-lg btn-secondary">
+                Elérhetőségek
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-snorlex">
+            <div class="card-header py-3 text-white bg-snorlex border-snorlex">
+              <h4 class="my-0 fw-normal">Kiterjesztett</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">950 000 Ft-tól</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Szakszerű tervezés</li>
+                <li>15+ dugalj/kapcsoló beépítése</li>
+                <li>15+ dugalj/kapcsoló beszerelése</li>
+                <li>5 év garancia</li>
+              </ul>
+              <button
+                type="button"
+                class="w-100 btn btn-lg btn-primary bg-snorlex-shine border-shadow"
+              >
+                Visszahívást kérek
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer
+      class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+    >
+      <div class="col-md-4 d-flex align-items-center">
+        <a
+          href="/"
+          class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+        >
+          <svg class="bi" width="30" height="24">
+            <use xlink:href="#bootstrap"></use>
+          </svg>
+        </a>
+        <span class="text-muted">© 2022 SnorlaxElectric, Inc</span>
+      </div>
+
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a class="text-muted" href="#"><i class="fab fa-facebook-f"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><i class="fab fa-youtube"></i></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><i class="fab fa-tiktok"></i></a>
+        </li>
+      </ul>
+    </footer>
   </body>
 </html>

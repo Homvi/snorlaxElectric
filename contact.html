@@ -20,9 +20,11 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>ReinreR-kapcsolat</title>
+    <title>SnorlaxElectric-kapcsolat</title>
   </head>
   <body>
+    <!-- navbar -->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">SnorlaxElectric</a>
@@ -54,5 +56,59 @@
         </div>
       </div>
     </nav>
+
+    <!-- contact-form -->
+    <div class="contact-container">
+      <div class="row">
+        <div class="col-xs-0 col-md-4"></div>
+        <div class="col-xs-12 col-md-4">
+          <form action="#">
+            <h2 class="mt-5">Kapcsolat</h2>
+            <p class="mb-3 mt-2">
+              Az adatok megadása után kollégánk visszahívja Önt!
+            </p>
+            <label class="mb-2" for="name">Név</label>
+            <input class="mb-3" type="text" name="name" id="name" />
+            <label class="mb-2" for="tel">Telefonszám</label>
+            <input type="tel" name="tel" id="tel" /><br />
+            <div class="necessary mb-3">
+              <span class="mb-1">Elfogadom a felhasználási feltételeket.</span>
+              <input class="mb-1" type="checkbox" name="user" id="user" /><br />
+            </div>
+            <input class="btn btn-secondary" type="submit" value="Elküld" />
+          </form>
+        </div>
+        <div class="col-xs-0 col-md-4"></div>
+      </div>
+    </div>
+
+    <!-- footer -->
+    <footer
+    class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+  >
+    <div class="col-md-4 d-flex align-items-center">
+      <a
+        href="/"
+        class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+      >
+        <svg class="bi" width="30" height="24">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+      </a>
+      <span class="text-muted">© 2022 SnorlaxElectric, Inc</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3">
+        <a class="text-muted" href="#"><i class="fab fa-facebook-f"></i></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="#"><i class="fab fa-youtube"></i></a>
+      </li>
+      <li class="ms-3">
+        <a class="text-muted" href="#"><i class="fab fa-tiktok"></i></a>
+      </li>
+    </ul>
+  </footer>
   </body>
 </html>
